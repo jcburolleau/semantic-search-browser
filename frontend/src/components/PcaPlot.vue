@@ -80,14 +80,17 @@ const mapped = computed(() => {
 <style scoped>
 .plot {
   display: grid;
-  gap: 0.75rem;
+  grid-template-rows: 1fr auto;
+  gap: 0.5rem;
+  height: 100%;
+  min-height: 0;
 }
 
 svg {
   width: 100%;
-  height: auto;
-  background: #f4faf6aa;
-  border-top: 1px solid var(--line);
+  height: 100%;
+  min-height: 0;
+  background: transparent;
 }
 
 .q-label {

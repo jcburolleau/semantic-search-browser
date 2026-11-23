@@ -1,7 +1,7 @@
 # Semantic search hybrid
 
 - [x] Scaffold Vue + FastAPI monorepo
-- [x] AG News `data.json` (~100 snippets)
+- [x] AG News `data.json` (400 snippets, 100 per topic)
 - [x] Browser embeddings + cache + search UI
 - [x] Keyword toggle + PCA plot
 - [x] FastAPI/Pydantic + Docker

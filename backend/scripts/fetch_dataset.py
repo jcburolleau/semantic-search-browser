@@ -15,8 +15,9 @@ from pathlib import Path
 
 DATASET = "fancyzhx/ag_news"
 LABELS = {0: "World", 1: "Sports", 2: "Business", 3: "Sci/Tech"}
-OFFSETS = (0, 5000, 20000, 40000)
-PER_LABEL = 25
+# Spread across the train split so categories stay balanced.
+OFFSETS = tuple(range(0, 80_000, 2500))
+PER_LABEL = 100
 
 
 def fetch_rows(offset: int, length: int = 100) -> list[dict]:
@@ -74,7 +75,7 @@ def main() -> None:
 
     snippets = curate(rows)
     payload = {
-        "version": "1",
+        "version": "2",
         "source": DATASET,
         "model_hint": "Xenova/all-MiniLM-L6-v2",
         "snippets": snippets,

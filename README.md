@@ -4,7 +4,7 @@ Hybrid portfolio demo: **semantic search in the browser** with Transformers.js, 
 
 - Frontend: Vue 3 + Vite + TypeScript, `Xenova/all-MiniLM-L6-v2`, mean pooling, L2-normalized vectors, cosine via dot product.
 - Backend: FastAPI, Pydantic v2, `sentence-transformers/all-MiniLM-L6-v2`.
-- Corpus: 100 headlines from [`fancyzhx/ag_news`](https://huggingface.co/datasets/fancyzhx/ag_news) (World / Sports / Business / Sci/Tech).
+- Corpus: 400 headlines from [`fancyzhx/ag_news`](https://huggingface.co/datasets/fancyzhx/ag_news) (100 per topic: World / Sports / Business / Sci/Tech).
 
 ## Why the scores work
 
