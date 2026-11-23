@@ -1,0 +1,53 @@
+:root {
+  --ink: #14241f;
+  --muted: #4d5f58;
+  --paper: #dfeae4;
+  --paper-2: #c9d9d0;
+  --accent: #0f6e56;
+  --accent-2: #c45a1a;
+  --line: #1c332c22;
+  --hit: #1a6b9a;
+  --world: #0f6e56;
+  --sports: #c45a1a;
+  --business: #1a6b9a;
+  --scitech: #6b3fa0;
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'Figtree', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  color: var(--ink);
+  font-family: var(--font-body);
+  background:
+    radial-gradient(1200px 600px at 10% -10%, #b7ddd0 0%, transparent 55%),
+    radial-gradient(900px 500px at 110% 10%, #f0d2b8 0%, transparent 50%),
+    repeating-linear-gradient(0deg, transparent, transparent 3px, #14241f08 4px),
+    linear-gradient(180deg, #eef6f1 0%, var(--paper) 40%, #d3e4db 100%);
+}
+
+#app {
+  min-height: 100vh;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}

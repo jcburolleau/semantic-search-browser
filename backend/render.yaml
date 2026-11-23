@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: semantic-search-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    envVars:
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: PORT
+        value: "8000"

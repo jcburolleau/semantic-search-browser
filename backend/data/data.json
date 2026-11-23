@@ -1,0 +1,507 @@
+{
+  "version": "1",
+  "source": "fancyzhx/ag_news",
+  "model_hint": "Xenova/all-MiniLM-L6-v2",
+  "snippets": [
+    {
+      "id": "0",
+      "text": "Eta rebels explode peace hopes ETA triggered a series of explosions across Spain yesterday in a show of force by a faction within the Basque terrorist organisation opposed to a peace deal with the Socialist Government.",
+      "label": "World"
+    },
+    {
+      "id": "1",
+      "text": "Ghana leader looks set to win second term Accra - Ghana 's leader, John Kufuor, is expected to win a second and final four-year term when voters in the world 's second-biggest cocoa grower choose their leader in a presidential election on Tuesday.",
+      "label": "World"
+    },
+    {
+      "id": "2",
+      "text": "Japan Court Ex-Chess Champ Fischer Can Be Deported (Reuters) Reuters - A Tokyo court on Friday rejected a request by former world chess champion Bobby Fischer to have Japanese authorities halt procedures to deport him, Kyodo news agency reported.",
+      "label": "World"
+    },
+    {
+      "id": "3",
+      "text": "Iraqi Police Enter Najaf Shrine, Arrest Militiamen NAJAF, Iraq (Reuters) - Iraqi police took control of the Imam Ali Mosque in the holy city of Najaf on Friday after entering the shrine and arrested some hundreds of militiamen, Interior Ministry and an Iraqi government source said.",
+      "label": "World"
+    },
+    {
+      "id": "4",
+      "text": "Japan Court Ex-Chess Champ Fischer Can Be Deported TOKYO (Reuters) - A Tokyo court on Friday rejected a request by former world chess champion Bobby Fischer to have Japanese authorities halt procedures to deport him, Kyodo news agency reported.",
+      "label": "World"
+    },
+    {
+      "id": "5",
+      "text": "Second Explosion Rocks Texas Gas Facility MOSS BLUFF, Texas - A second explosion in less than 24 hours rocked a burning underground gas storage facility early Friday, prompting authorities to expand an evacuation zone around the site. The fire at Duke Energy's Moss Bluff natural gas facility intensified overnight, an official said...",
+      "label": "World"
+    },
+    {
+      "id": "6",
+      "text": "U.S. Women Beat Spain in First Real Test ATHENS, Greece - Seriously challenged for the first time in these Olympics, the U.S. women's basketball team fought through foul problems and long stretches of frigid shooting to clinch first place in its preliminary group with a 71-58 victory over Spain on Friday...",
+      "label": "World"
+    },
+    {
+      "id": "7",
+      "text": "Stocks Up Despite Oil Nearing $50 a Barrel NEW YORK - Stocks edged higher in early trading Friday as investors tried to uncouple share prices from skyrocketing oil costs, even as crude reached new highs and neared $50 per barrel. A barrel of light crude was quoted at $49.33, up 63 cents, on the New York Mercantile Exchange, continuing a climb that has sent new intraday highs with every quote...",
+      "label": "World"
+    },
+    {
+      "id": "8",
+      "text": "An Elusive Peace in Najaf The standoff is driven by Moqtada Sadr's political ambitions. But how good is his poker game?",
+      "label": "World"
+    },
+    {
+      "id": "9",
+      "text": "Twenty-Five Hurt as Azores Plane Avoids Collision LISBON (Reuters) - Twenty-five TAP-Air Portugal passengers and crew were slightly injured when the plane made a hasty maneuver to avoid a mid-air collision just before landing on an island in The Azores on Friday, TAP said.",
+      "label": "World"
+    },
+    {
+      "id": "10",
+      "text": "Holes found in Windows update Security firms are starting to find loopholes and bugs in the SP2 security update for Windows XP.",
+      "label": "World"
+    },
+    {
+      "id": "11",
+      "text": "Iraqi Police in Control of Najaf Shrine, According to Reports Hundreds of militiamen were arrested today when police entered the Imam Ali Mosque, but rebel Shiite cleric Moktada al-Sadr was not found, Iraqi officials said.",
+      "label": "World"
+    },
+    {
+      "id": "12",
+      "text": "Israel Faces New Pressure Over Security Barrier The Israeli government is facing new pressure over its controversial West Bank security barrier, which the World Court has ruled is illegal and should be dismantled.",
+      "label": "World"
+    },
+    {
+      "id": "13",
+      "text": "UN Official Warns of 'Spiral of Violence ' Following Burundi Massacre The United Nation 's top peacekeeping official says there is quot;real danger quot; of a new war in central Africa following the massacre of Congolese refugees in Burundi.",
+      "label": "World"
+    },
+    {
+      "id": "14",
+      "text": "Latham to be released from hospital Mr Latham is due to leave St Vincent 's hospital in Sydney after being treated for pancreatitis. Mr Latham says he is feeling much better and expects to be back at work next week.",
+      "label": "World"
+    },
+    {
+      "id": "15",
+      "text": "Iran Urges Meeting on Iraq 'Catastrophe' (AP) AP - Iranian President Mohammad Khatami called on Muslim countries Friday to hold an urgent meeting to discuss the \"catastrophe\" in Iraq, particularly the 2-week standoff in the holy city of Najaf.",
+      "label": "World"
+    },
+    {
+      "id": "16",
+      "text": "Kerry touts job-creation plans (AFP) AFP - Democratic White House hopeful John Kerry promised to help boost US job growth and take a harder line on alleged abuses by China as he touted his economic plan.",
+      "label": "World"
+    },
+    {
+      "id": "17",
+      "text": "Japan Court: Bobby Fischer Can Be Deported TOKYO (Reuters) - A Tokyo court on Friday rejected a request by former world chess champion Bobby Fischer to have the Japanese authorities halt procedures to deport him, his lawyer said.",
+      "label": "World"
+    },
+    {
+      "id": "18",
+      "text": "Airline Stops Three-Day Weekend Bookings (AP) AP - British Airways said Friday it has stopped taking bookings for the three-day weekend at the end of August because of a threatened strike over pay by check-in staff and baggage handlers.",
+      "label": "World"
+    },
+    {
+      "id": "19",
+      "text": "UN remembers Iraq staff, a year after bombing GENEVA: Tears flowed as the United Nations marked the first anniversary yesterday of the bombing that shattered its Baghdad headquarters.",
+      "label": "World"
+    },
+    {
+      "id": "20",
+      "text": "PM: Australia aims to keep good relations with both US, China Australian Prime Minister John Howard said on Friday that Australia 's policy is aimed at keeping good relations with both the United States and China.",
+      "label": "World"
+    },
+    {
+      "id": "21",
+      "text": "Confusion Surrounds Seizure of Iraqi Mosque NAJAF, Iraq (Reuters) - The fate of a radical Shi'ite rebellion in the holy city of Najaf was uncertain Friday amid disputed reports that Iraqi police had gained control of the Imam Ali Mosque.",
+      "label": "World"
+    },
+    {
+      "id": "22",
+      "text": "Militants Remove Arms From Najaf Shrine BAGHDAD, Iraq - Militiamen loyal to rebel Shiite cleric Muqtada al-Sadr on Friday removed their weapons from the revered Imam Ali Shrine in Najaf as part of an arrangement aimed at ending a 2-week-old anti-U.S. uprising centered on the holy site...",
+      "label": "World"
+    },
+    {
+      "id": "23",
+      "text": "U.S. Women's Basketball Team Beats Spain ATHENS, Greece - The U.S. women's basketball team got just what it wanted against Spain - a victory and a test...",
+      "label": "World"
+    },
+    {
+      "id": "24",
+      "text": "Russia, Israel Agree on Anti-Terror Union Russia 's foreign minister welcomed Israel 's offer of help in combating militant groups on Monday, saying Russia needs to be more effective in fighting terror after last week 's deadly hostage school standoff.",
+      "label": "World"
+    },
+    {
+      "id": "25",
+      "text": "Probe expanded into Greek sprinters ' crash, coach 's past The state drug agency asked for a warrant Friday to search a warehouse belonging to the coach of two disgraced Greek sprinters who withdrew from the Olympics after they missed a doping test.",
+      "label": "Sports"
+    },
+    {
+      "id": "26",
+      "text": "Rathbone is 'like Gregan ' AUSTRALIAN coach Eddie Jones rates winger Clyde Rathbone a potential successor to Wallaby captain George Gregan as the pair reach Test career milestones tonight against South Africa in Durban.",
+      "label": "Sports"
+    },
+    {
+      "id": "27",
+      "text": "Two more Americans fail to master Olympic boxing style No chance, Dad. The best amateur boxers know just how to move and exactly when to pounce -- and three Americans who failed to match that style are out of the Olympics.",
+      "label": "Sports"
+    },
+    {
+      "id": "28",
+      "text": "USA women 's basketball team pulls away to beat Spain Athens, Greece (Sports Network) - The US women 's basketball team continued its impressive play at the Olympics, pulling away from previously-unbeaten Spain for a 71-58 victory on Friday.",
+      "label": "Sports"
+    },
+    {
+      "id": "29",
+      "text": "Basketball: U.S. Women Win After a Tough Test ATHENS (Reuters) - The unbeaten U.S. women's basketball team had their sternest test of the Olympic tournament so far Friday, needing an eight point run in the third quarter to pull away and beat Spain 71-58.",
+      "label": "Sports"
+    },
+    {
+      "id": "30",
+      "text": "Greek Athlete Tests Positive for Drugs ATHENS (Reuters) - Greek pride was dealt another blow Friday when one of their athletes failed a drugs test at the Olympics just 48 hours after its two top sprinters pulled out of the Games in a doping scandal.",
+      "label": "Sports"
+    },
+    {
+      "id": "31",
+      "text": "Fergie undecided over Ronaldo Manchester United boss Sir Alex Ferguson is still unsure whether to field Cristiano Ronaldo in Saturday 's Premiership clash against Norwich.",
+      "label": "Sports"
+    },
+    {
+      "id": "32",
+      "text": "Lithuanians face US NBA stars in Olympic basketball showdown (AFP) AFP - A struggling United States basketball team coming off two narrow escapes and a epic loss faces its toughest Olympic test yet Saturday against unbeaten Lithuania, which is playing like the team to beat for gold.",
+      "label": "Sports"
+    },
+    {
+      "id": "33",
+      "text": "Scalpers Sell Athens Tickets at Face Value ATHENS (Reuters) - The Athens 2004 Games which will have a place in history as the Olympics' homecoming may also be remembered as the Games that redefined a ticket scalper's job.",
+      "label": "Sports"
+    },
+    {
+      "id": "34",
+      "text": "Champions League matches in Group A Liverpool: 22-Chris Kirkland; 17-Josemi, 23-Jamie Carragher, 4-Sami Hyypia, 6-John Arne Riise; 18-Antonio Nunez, 8-Steven Gerrard, 14-Xabi Alonso, 10-Luis Garcia; 7-Harry Kewell, 5-Milan Baros.",
+      "label": "Sports"
+    },
+    {
+      "id": "35",
+      "text": "Deakes takes a walk into history The 27-year-old took out bronze in the men 's 20km walk -- winning Australia 's first Olympic medal for walking in almost 45 years.",
+      "label": "Sports"
+    },
+    {
+      "id": "36",
+      "text": "Harmison strikes twice for dominant England LONDON, Aug 20 (Reuters) - Steve Harmison took two cheap wickets to leave West Indies reeling on 54 for three on the second day of the fourth test at The Oval on Friday after England 's wagging tail had pushed the hosts to 470 all out.",
+      "label": "Sports"
+    },
+    {
+      "id": "37",
+      "text": "Us Grand Prix Is Back The United States Grand Prix is to return to the MotoGP calendar next year after an 11-year absence.",
+      "label": "Sports"
+    },
+    {
+      "id": "38",
+      "text": "Tigers ' Monroe facing theft charge in Charlotte County Detroit Tigers outfielder Craig Monroe was arrested for allegedly stealing a $29.99 belt from a department store, a records clerk at Charlotte County jail said Tuesday.",
+      "label": "Sports"
+    },
+    {
+      "id": "39",
+      "text": "Pakistan to rest speed duo Skipper Inzamam-ul-Haq said he 'd likely rest Shoaib Akhtar and Mohammad Sami for Tuesday 's limited-overs match against an Australian Chairman 's XI as Pakistan continues to ease its pace bowlers into the tour.",
+      "label": "Sports"
+    },
+    {
+      "id": "40",
+      "text": "SI.com DETROIT (Ticker) -- A rocky first inning was too much for Denny Bautista to overcome in his first major league start. Craig Monroe had an RBI single in a three-run first inning and added a solo homer off Bautista",
+      "label": "Sports"
+    },
+    {
+      "id": "41",
+      "text": "Braves 3, Phillies 1 Replacement starter Travis Smith pitched five solid innings, Andruw Jones homered again and the Atlanta Braves buried Philadelphia a little deeper in the NL East, beating the Phillies 3-1 on Monday.",
+      "label": "Sports"
+    },
+    {
+      "id": "42",
+      "text": "Hockey: Finland Squeeze by Spirited Germany 2-1 A late goal by Mikko Eloranta helped Finland scrape past Germany 2-1 Monday in their World Cup Ice hockey quarter-final, sending the Finns to the semi-finals in North America later this week.",
+      "label": "Sports"
+    },
+    {
+      "id": "43",
+      "text": "Finland escapes with quarter-final win CBC SPORTS ONLINE - Mikko Eloranta 's goal late in the third period helped Finland prevent an embarrassing quarter-final loss to Germany in World Cup play in Helsinki on Monday.",
+      "label": "Sports"
+    },
+    {
+      "id": "44",
+      "text": "Button confident of Williams move Motorsport.com. The Jenson Button/BAR/Williams saga is still rolling on and Williams has now lodged its contract with Button with the Contract Recognition Board (CRB) in regard to the 2005 season and beyond.",
+      "label": "Sports"
+    },
+    {
+      "id": "45",
+      "text": "Tigers 7, Royals 3 Craig Monroe homered and Omar Infante drove in three runs to back Wil Ledezma 's six strong innings in the Detroit Tigers ' 7-3 victory over the Kansas City Royals on Monday.",
+      "label": "Sports"
+    },
+    {
+      "id": "46",
+      "text": "Giants Starting Over With New Coach (AP) AP - Tom Coughlin's first season with the New York Giants might be very similar to his start with the expansion Jacksonville Jaguars.",
+      "label": "Sports"
+    },
+    {
+      "id": "47",
+      "text": "Finland Beats Germany 2-1 in Cup Play (AP) AP - Mikko Eloranta tipped a shot past Olaf Kolzig with 3:22 left, lifting Finland to a 2-1 win over Germany on Monday and into semifinals of the World Cup of Hockey.",
+      "label": "Sports"
+    },
+    {
+      "id": "48",
+      "text": "Agassi Sets Up Federer Showdown at U.S. Open NEW YORK (Reuters) - Sixth seed Andre Agassi set up a mouthwatering quarter-final showdown with world number one Roger Federer following a 6-3, 6-2, 6-2 win over Armenia's Sargis Sargsian at the U.S. Open Monday.",
+      "label": "Sports"
+    },
+    {
+      "id": "49",
+      "text": "Henman in Quarters as Kiefer Retires NEW YORK (Reuters) - Tim Henman reached his first U.S. Open quarter-final Monday when German opponent Nicolas Kiefer retired in the fifth set of their fourth round match.",
+      "label": "Sports"
+    },
+    {
+      "id": "50",
+      "text": "Wall St. Bears Claw Back Into the Black (Reuters) Reuters - Short-sellers, Wall Street's dwindling band of ultra-cynics, are seeing green again.",
+      "label": "Business"
+    },
+    {
+      "id": "51",
+      "text": "Carlyle Looks Toward Commercial Aerospace (Reuters) Reuters - Private investment firm Carlyle Group, which has a reputation for making well-timed and occasionally controversial plays in the defense industry, has quietly placed its bets on another part of the market.",
+      "label": "Business"
+    },
+    {
+      "id": "52",
+      "text": "Oil and Economy Cloud Stocks' Outlook (Reuters) Reuters - Soaring crude prices plus worries about the economy and the outlook for earnings are expected to hang over the stock market next week during the depth of the summer doldrums.",
+      "label": "Business"
+    },
+    {
+      "id": "53",
+      "text": "Iraq Halts Oil Exports from Main Southern Pipeline (Reuters) Reuters - Authorities have halted oil export flows from the main pipeline in southern Iraq after intelligence showed a rebel militia could strike infrastructure, an oil official said on Saturday.",
+      "label": "Business"
+    },
+    {
+      "id": "54",
+      "text": "Oil prices soar to all-time record, posing new menace to US economy (AFP) AFP - Tearaway world oil prices, toppling records and straining wallets, present a new economic menace barely three months before the US presidential elections.",
+      "label": "Business"
+    },
+    {
+      "id": "55",
+      "text": "Stocks End Up, But Near Year Lows (Reuters) Reuters - Stocks ended slightly higher on Friday but stayed near lows for the year as oil prices surged past #36;46 a barrel, offsetting a positive outlook from computer maker Dell Inc. (DELL.O)",
+      "label": "Business"
+    },
+    {
+      "id": "56",
+      "text": "Money Funds Fell in Latest Week (AP) AP - Assets of the nation's retail money market mutual funds fell by #36;1.17 billion in the latest week to #36;849.98 trillion, the Investment Company Institute said Thursday.",
+      "label": "Business"
+    },
+    {
+      "id": "57",
+      "text": "Fed minutes show dissent over inflation (USATODAY.com) USATODAY.com - Retail sales bounced back a bit in July, and new claims for jobless benefits fell last week, the government said Thursday, indicating the economy is improving from a midsummer slump.",
+      "label": "Business"
+    },
+    {
+      "id": "58",
+      "text": "Safety Net (Forbes.com) Forbes.com - After earning a PH.D. in Sociology, Danny Bazil Riley started to work as the general manager at a commercial real estate firm at an annual base salary of #36;70,000. Soon after, a financial planner stopped by his desk to drop off brochures about insurance benefits available through his employer. But, at 32, \"buying insurance was the furthest thing from my mind,\" says Riley.",
+      "label": "Business"
+    },
+    {
+      "id": "59",
+      "text": "Wall St. Bears Claw Back Into the Black NEW YORK (Reuters) - Short-sellers, Wall Street's dwindling band of ultra-cynics, are seeing green again.",
+      "label": "Business"
+    },
+    {
+      "id": "60",
+      "text": "Oil and Economy Cloud Stocks' Outlook NEW YORK (Reuters) - Soaring crude prices plus worries about the economy and the outlook for earnings are expected to hang over the stock market next week during the depth of the summer doldrums.",
+      "label": "Business"
+    },
+    {
+      "id": "61",
+      "text": "No Need for OPEC to Pump More-Iran Gov TEHRAN (Reuters) - OPEC can do nothing to douse scorching oil prices when markets are already oversupplied by 2.8 million barrels per day (bpd) of crude, Iran's OPEC governor said Saturday, warning that prices could fall sharply.",
+      "label": "Business"
+    },
+    {
+      "id": "62",
+      "text": "Non-OPEC Nations Should Up Output-Purnomo JAKARTA (Reuters) - Non-OPEC oil exporters should consider increasing output to cool record crude prices, OPEC President Purnomo Yusgiantoro said on Sunday.",
+      "label": "Business"
+    },
+    {
+      "id": "63",
+      "text": "Google IPO Auction Off to Rocky Start WASHINGTON/NEW YORK (Reuters) - The auction for Google Inc.'s highly anticipated initial public offering got off to a rocky start on Friday after the Web search company sidestepped a bullet from U.S. securities regulators.",
+      "label": "Business"
+    },
+    {
+      "id": "64",
+      "text": "Dollar Falls Broadly on Record Trade Gap NEW YORK (Reuters) - The dollar tumbled broadly on Friday after data showing a record U.S. trade deficit in June cast fresh doubts on the economy's recovery and its ability to draw foreign capital to fund the growing gap.",
+      "label": "Business"
+    },
+    {
+      "id": "65",
+      "text": "Rescuing an Old Saver If you think you may need to help your elderly relatives with their finances, don't be shy about having the money talk -- soon.",
+      "label": "Business"
+    },
+    {
+      "id": "66",
+      "text": "Kids Rule for Back-to-School The purchasing power of kids is a big part of why the back-to-school season has become such a huge marketing phenomenon.",
+      "label": "Business"
+    },
+    {
+      "id": "67",
+      "text": "In a Down Market, Head Toward Value Funds There is little cause for celebration in the stock market these days, but investors in value-focused mutual funds have reason to feel a bit smug -- if only because they've lost less than the folks who stuck with growth.",
+      "label": "Business"
+    },
+    {
+      "id": "68",
+      "text": "US trade deficit swells in June The US trade deficit has exploded 19 to a record $55.8bn as oil costs drove imports higher, according to a latest figures.",
+      "label": "Business"
+    },
+    {
+      "id": "69",
+      "text": "Shell 'could be target for Total' Oil giant Shell could be bracing itself for a takeover attempt, possibly from French rival Total, a press report claims.",
+      "label": "Business"
+    },
+    {
+      "id": "70",
+      "text": "Google IPO faces Playboy slip-up The bidding gets underway for Google's public offering, despite last-minute worries over an interview with its bosses in Playboy magazine.",
+      "label": "Business"
+    },
+    {
+      "id": "71",
+      "text": "Eurozone economy keeps growing Official figures show the 12-nation eurozone economy continues to grow, but there are warnings it may slow down later in the year.",
+      "label": "Business"
+    },
+    {
+      "id": "72",
+      "text": "Expansion slows in Japan Economic growth in Japan slows down as the country experiences a drop in domestic and corporate spending.",
+      "label": "Business"
+    },
+    {
+      "id": "73",
+      "text": "Rand falls on shock SA rate cut Interest rates are trimmed to 7.5 by the South African central bank, but the lack of warning hits the rand and surprises markets.",
+      "label": "Business"
+    },
+    {
+      "id": "74",
+      "text": "Car prices down across the board The cost of buying both new and second hand cars fell sharply over the past five years, a new survey has found.",
+      "label": "Business"
+    },
+    {
+      "id": "75",
+      "text": "'Madden,' 'ESPN' Football Score in Different Ways (Reuters) Reuters - Was absenteeism a little high on Tuesday among the guys at the office? EA Sports would like to think it was because \"Madden NFL 2005\" came out that day, and some fans of the football simulation are rabid enough to take a sick day to play it.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "76",
+      "text": "Group to Propose New High-Speed Wireless Format (Reuters) Reuters - A group of technology companies including Texas Instruments Inc. (TXN.N), STMicroelectronics\\(STM.PA) and Broadcom Corp. (BRCM.O), on Thursday said they will propose a new wireless networking standard up to 10 times the speed of the current generation.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "77",
+      "text": "AOL to Sell Cheap PCs to Minorities and Seniors (Reuters) Reuters - America Online on Thursday said it plans to sell a low-priced PC targeting low-income and minority households who agree to sign up for a year of dialup Internet service.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "78",
+      "text": "Companies Approve New High-Capacity Disc Format (Reuters) Reuters - A group of consumer electronics makers said on Wednesday they approved the format for a new generation of discs that can store five times the data of DVDs at the same cost -- enough to put a full season of \"The Sopranos\" on one disc.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "79",
+      "text": "Missing June Deals Slow to Return for Software Cos. (Reuters) Reuters - The mystery of what went wrong for the software industry in late June when sales stalled at more than\\20 brand-name companies is not even close to being solved although the third quarter is nearly halfway over.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "80",
+      "text": "Hacker Cracks Apple's Streaming Technology (AP) AP - The Norwegian hacker famed for developing DVD encryption-cracking software has apparently struck again #151; this time breaking the locks on Apple Computer Inc.'s wireless music streaming technology.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "81",
+      "text": "European Download Services Go Mobile (Reuters) Reuters - The ability to download complete tracks directly over cell-phone networks to mobile phones is becoming a reality in Europe.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "82",
+      "text": "Open Source Apps Developer SugarCRM Releases Sugar.Sales 1.1 (TechWeb) TechWeb - News - August 13, 2004",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "83",
+      "text": "Oracle Sales Data Seen Being Released (Reuters) Reuters - Oracle Corp. sales documents detailing highly confidential information, such as which companies receive discounts on Oracle's business software products and the size of the discounts, are likely to be made public, a federal judge said on Friday.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "84",
+      "text": "Sun's Looking Glass Provides 3D View (PC World) PC World - Developers get early code for new operating system 'skin' still being crafted.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "85",
+      "text": "Apple to open second Japanese retail store this month (MacCentral) MacCentral - Apple Computer Inc. will open its second Japanese retail store later this month in the western Japanese city of Osaka, it said Thursday.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "86",
+      "text": "Charley's Force Took Experts by Surprise (AP) AP - Hurricane Charley's 145-mph force took forecasters by surprise and showed just how shaky a science it still is to predict a storm's intensity #151; even with all the latest satellite and radar technology.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "87",
+      "text": "Science, Politics Collide in Election Year (AP) AP - With more than 4,000 scientists, including 48 Nobel Prize winners, having signed a statement opposing the Bush administration's use of scientific advice, this election year is seeing a new development in the uneasy relationship between science and politics.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "88",
+      "text": "Building Dedicated to Columbia Astronauts (AP) AP - A former dormitory converted to classrooms at the Pensacola Naval Air Station was dedicated Friday to two Columbia astronauts who were among the seven who died in the shuttle disaster Feb. 1, 2003.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "89",
+      "text": "Russian Cargo Craft Docks at Space Station (AP) AP - A Russian cargo ship docked with the international space station Saturday, bringing food, water, fuel and other items to the two-man Russian-American crew, a space official said.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "90",
+      "text": "Bangkok's Canals Losing to Urban Sprawl (AP) AP - Along the banks of the canal, women in rowboats grill fish and sell fresh bananas. Families eat on floating pavilions, rocked gently by waves from passing boats.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "91",
+      "text": "T. Rex Had Teen Growth Spurt, Scientists Say (Reuters) Reuters - Tyrannosaurus Rex grew incredibly fast during a teenaged growth spurt that saw the dinosaur expand its bulk by six times, but the fearsome beasts \"lived fast and died young,\" researchers said on Wednesday.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "92",
+      "text": "Gene Blocker Turns Monkeys Into Workaholics - Study (Reuters) Reuters - Procrastinating monkeys were turned into workaholics using a gene treatment to block a key brain compound, U.S. researchers reported on Wednesday.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "93",
+      "text": "Dolphins Too Have Born Socialites (Reuters) Reuters - Some people are born to be the life and soul of the party -- and so it seems are some dolphins.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "94",
+      "text": "What's in a Name? Well, Matt Is Sexier Than Paul (Reuters) Reuters - As Shakespeare said, a rose by any other name would smell as sweet. Right?",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "95",
+      "text": "UK Scientists Allowed to Clone Human Embryos (Reuters) Reuters - British scientists said on Wednesday they had received permission to clone human embryos for medical research, in what they believe to be the first such license to be granted in Europe.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "96",
+      "text": "Russian Alien Spaceship Claims Raise Eyebrows, Skepticism (SPACE.com) SPACE.com - An expedition of Russian researchers claims to have found evidence that an \\ alien spaceship had something to do with a huge explosion over Siberia in 1908. \\ Experts in asteroids and comets have long said the massive blast was caused \\ by a space rock.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "97",
+      "text": "Prehistoric Desert Town Found in Western Sahara (Reuters) Reuters - The remains of a prehistoric town believed to date back 15,000 years and belong to an ancient Berber civilization have been discovered in Western Sahara, Moroccan state media said on Thursday.",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "98",
+      "text": "Software Doesn't Break Laws... ... People do. Or at least that's what two makers of file-sharing software argued successfully in federal court, shifting the balance in the Internet piracy wars away from the Hollywood and the RIAA. <FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\" color=\"#666666\"><B>-washingtonpost.com</B></FONT>",
+      "label": "Sci/Tech"
+    },
+    {
+      "id": "99",
+      "text": "Web Sites Agree to Be Accessible to Blind In one of the first enforcement actions of the Americans with Disabilities Act on the Internet, two major travel services have agreed to make sites more accessible to the blind and visually impaired.",
+      "label": "Sci/Tech"
+    }
+  ]
+}

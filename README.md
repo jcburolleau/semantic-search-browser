@@ -1,0 +1,55 @@
+# Semantic Search Browser
+
+Hybrid portfolio demo: **semantic search in the browser** with Transformers.js, plus the same contract on **FastAPI + Pydantic**.
+
+- Frontend: Vue 3 + Vite + TypeScript, `Xenova/all-MiniLM-L6-v2`, mean pooling, L2-normalized vectors, cosine via dot product.
+- Backend: FastAPI, Pydantic v2, `sentence-transformers/all-MiniLM-L6-v2`.
+- Corpus: 100 headlines from [`fancyzhx/ag_news`](https://huggingface.co/datasets/fancyzhx/ag_news) (World / Sports / Business / Sci/Tech).
+
+## Why the scores work
+
+The embedding pipeline uses `pooling: "mean"` and `normalize: true`. After L2-normalization, **dot product = cosine similarity**. Keyword mode is a simple `includes` baseline so you can see where lexical match fails and meaning still ranks.
+
+Embeddings computed in the browser are cached in `localStorage` keyed by dataset version + model id.
+
+## Local run
+
+```bash
+# frontend
+cd frontend
+npm install
+npm run dev
+
+# backend (from repo root)
+cd backend
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload --port 8000
+```
+
+Frontend expects `VITE_API_URL=http://localhost:8000` (see `frontend/.env.example`).
+
+Refresh the dataset from Hugging Face:
+
+```bash
+python backend/scripts/fetch_dataset.py --out data/data.json
+cp data/data.json frontend/public/data.json
+cp data/data.json backend/data/data.json
+```
+
+## Deploy
+
+- **Netlify** (frontend): this repo, `netlify.toml` builds `frontend/`. Set `VITE_API_URL` to the Render URL.
+- **Render** (API): Blueprint `render.yaml` or a Docker web service with root `backend/`. Set `ALLOWED_ORIGINS` to the Netlify origin.
+
+Cold start on the free API tier downloads MiniLM once; the instance may sleep.
+
+## API
+
+| Method | Path | Body |
+|--------|------|------|
+| GET | `/health` | |
+| GET | `/snippets` | |
+| POST | `/search` | `{ query, top_k?, mode: "semantic" \| "keyword" }` |
+| POST | `/embed` | `{ text }` |
