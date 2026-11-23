@@ -22,11 +22,13 @@ npm run dev
 
 # backend (from repo root)
 cd backend
-python3 -m venv .venv
+python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
+
+Python 3.11+ is required (`sentence-transformers` / current NumPy). Docker uses 3.11.
 
 Frontend expects `VITE_API_URL=http://localhost:8000` (see `frontend/.env.example`).
 
@@ -40,8 +42,15 @@ cp data/data.json backend/data/data.json
 
 ## Deploy
 
-- **Netlify** (frontend): this repo, `netlify.toml` builds `frontend/`. Set `VITE_API_URL` to the Render URL.
-- **Render** (API): Blueprint `render.yaml` or a Docker web service with root `backend/`. Set `ALLOWED_ORIGINS` to the Netlify origin.
+This machine did not have `gh` or Netlify CLI sessions. After `gh auth login` and `npx netlify login`:
+
+```bash
+gh repo create semantic-search-browser --public --source=. --remote=origin --push
+npx netlify init   # build: frontend, publish: dist (see netlify.toml)
+# Set VITE_API_URL to the Render service URL, then redeploy the frontend.
+```
+
+**Render:** New Web Service → this GitHub repo → Docker, root `backend/`, health `/health`. Set `ALLOWED_ORIGINS` to `https://<site>.netlify.app`. Or apply the root `render.yaml` Blueprint.
 
 Cold start on the free API tier downloads MiniLM once; the instance may sleep.
 

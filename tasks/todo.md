@@ -6,8 +6,8 @@
 - [x] Keyword toggle + PCA plot
 - [x] FastAPI/Pydantic + Docker
 - [x] Client vs server mode
-- [ ] Verify locally
-- [ ] GitHub + Netlify + Render
+- [x] Verify locally
+- [ ] GitHub + Netlify + Render (blocked: `gh` and Netlify CLI not logged in)
 
 ## Review
 
